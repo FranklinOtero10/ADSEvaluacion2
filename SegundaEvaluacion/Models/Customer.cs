@@ -9,8 +9,7 @@ namespace SegundaEvaluacion.Models
     public class Customer
     {
         [Display(Name = "Código Cliente")]
-        [Required(ErrorMessage = "Este campo no puede quedar vacio")]
-        [MinLength(length: 12, ErrorMessage = "La longitud del campo no puede ser menor a 12 caracteres.")]
+        
         public int idCustomer { get; set; }        
 
         [Display(Name = "Nombres")]

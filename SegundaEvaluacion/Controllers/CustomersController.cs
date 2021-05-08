@@ -19,8 +19,8 @@ namespace SegundaEvaluacion.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var Customer = servicioCustomer.obtenerTodos();
-            return View(Customer);
+            var customer = servicioCustomer.obtenerTodos();
+            return View(customer);
         }
 
 
